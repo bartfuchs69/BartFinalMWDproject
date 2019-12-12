@@ -3,7 +3,7 @@ body {
     padding: 0;
     background: linear-gradient(red, purple, salmon, pink, salmon, purple); 
 background-repeat: no-repeat;
-    font-family: 'Tomorrow' sans-serif;
+    font-family: sans-serif;
     height: 700px;
     background-color: red; /* For browsers that do not support gradients */
     background-image: linear-gradient(red, purple, salmon, pink, salmon, purple) */
@@ -24,6 +24,7 @@ div1 { height: 500px;
    .poke {
         border-radius: 0;
         transition: all .1s ease-in-out;
+        transform: rotate(25deg);
    }
 
    .poke:hover {
