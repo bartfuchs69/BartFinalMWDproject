@@ -3,10 +3,29 @@ body {
     padding: 0;
     background: linear-gradient(red, purple, salmon, pink, salmon, purple); 
 background-repeat: no-repeat;
-    font-family: sans-serif;
+    font-family: 'Tomorrow' sans-serif;
+    height: 700px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(red, purple, salmon, pink, salmon, purple) */
+  }
     
 }
 div1 { height: 500px;
     background-color: red; /* For browsers that do not support gradients */
-    background-image: linear-gradient(to right, red , yellow); /* Standard syntax (must be last) */
+    background-image: linear-gradient(red, purple, salmon, pink, salmon, purple); /* Standard syntax (must be last) */
   }
+
+  .barty {
+      width: 500px;
+      height: 600px; 
+      background-image: url(https://i.imgur.com/MoKATT4.jpg)
+   }
+
+   .poke {
+        border-radius: 0;
+        transition: all .1s ease-in-out;
+   }
+
+   .poke:hover {
+       border-radius: 100%;
+   }
